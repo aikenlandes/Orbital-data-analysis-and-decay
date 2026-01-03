@@ -5,7 +5,7 @@ import numpy as np
 GM = 3.986e14 # Standard gravitational parameter for Earth (Gravitational constant * Mass)
 EARTH_RADIUS = 6_378_137 # m
 
-df = pd.read_csv("./data/25544_2020-2025.csv")
+df = pd.read_csv("./data/2020-2025.csv")
 
 data = df[["MEAN_MOTION", "EPOCH", "INCLINATION"]].copy()
 
